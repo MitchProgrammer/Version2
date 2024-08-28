@@ -1,0 +1,48 @@
+# config.yml
+
+# Score values for each type of ore
+blockXpValues:
+  COAL_ORE: 1
+  COPPER_ORE: 2
+  IRON_ORE: 3
+  GOLD_ORE: 4
+  LAPIS_ORE: 5
+  REDSTONE_ORE: 6
+  EMERALD_ORE: 7
+  DIAMOND_ORE: 8
+  DEEPSLATE_COAL_ORE: 2
+  DEEPSLATE_COPPER_ORE: 4
+  DEEPSLATE_IRON_ORE: 8
+  DEEPSLATE_GOLD_ORE: 10
+  DEEPSLATE_LAPIS_ORE: 12
+  DEEPSLATE_REDSTONE_ORE: 14
+  DEEPSLATE_EMERALD_ORE: 16
+  DEEPSLATE_DIAMOND_ORE: 18
+
+levels:
+  ranges:
+    "1-10": "#808080"  # Gray
+    "11-25": "#FFFFFF"  # White
+    "26-50": "#4fd0db"  # Aqua
+    "51-100": "#0f6780" # Dark Cyan
+    "101-150": "#0076ff" # Blue
+    "151-200": "#0008ff" # Dark Blue
+    "201-250": "#688402" # Gold
+    "251-300": "#ff0800" # Red
+    "300-1000": "#9c0500" # Dark Red
+
+    # Add more ranges as needed
+
+
+# Formula for calculating XP required for the next level
+# e.g., 1.1x means the next level's XP is 1.1 times the current level's XP
+levelingFormula: "1.25x"
+
+# Initial XP required for level 1
+initialXpForLevel1: 100
+
+# Messages for leveling up
+levelUpMessage: "You have leveled up to level %level%."
+
+# Other settings
+xpMessagesEnabled: true

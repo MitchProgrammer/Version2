@@ -1,0 +1,37 @@
+name: MiningLeveler
+version: 2.0
+main: com.Incrymnia.MiningLeveler.Main
+api-version: 1.21
+website: incrymnia.com
+Author: MitchProGamer / Mitchell Taylor
+softdepend: [PlaceholderAPI]
+commands:
+  setlevel:
+    description: Set a player's level
+  setxp:
+    description: Set a player's XP
+  addxp:
+    description: Add XP to a player's total
+  removexp:
+    description: Remove XP from a player's total
+  top:
+    description: Show the top players by level
+  togglexpmessages:
+    description: Toggle XP notifications from mining ores
+  level:
+    description: Show your current level
+  nextlevel:
+    description: Show the next level
+  nextlevelxp:
+    description: Show the amount of XP required for the next level
+  xp:
+    description: Show your XP on the current level
+  totalxp:
+    description: Show your total XP
+permissions:
+  miningleveling.use:
+    description: Allows using the mining leveling commands
+    default: true
+  miningleveling.admin:
+    description: Allows using admin commands like setlevel, setxp, etc.
+    default: op
